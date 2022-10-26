@@ -7,9 +7,10 @@ import {
   Text,
   ToastAndroid,
 } from 'react-native';
-import styles from './SignUpPageStyle';
 import {useMutation} from '@apollo/client';
-import {REG} from '../apollo/gqls/mutations';
+
+import styles from './SignUpPageStyle';
+import {REG} from '../../../apollo/gqls/mutations';
 
 const SignUpPage = ({navigation}) => {
   const [login, onChangeLogin] = useState(null);

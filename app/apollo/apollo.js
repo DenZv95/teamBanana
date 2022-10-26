@@ -1,7 +1,6 @@
 import {ApolloClient, InMemoryCache, HttpLink} from '@apollo/client';
 import {onError} from '@apollo/client/link/error';
 import {setContext} from '@apollo/client/link/context';
-//import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const httpLink = new HttpLink({
   uri: 'https://bananatask-server.herokuapp.com/',

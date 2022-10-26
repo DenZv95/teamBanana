@@ -1,9 +1,10 @@
 /* eslint-disable react-native/no-inline-styles */
 import React, {useState, useEffect} from 'react';
 import {ScrollView, View, Text, TouchableOpacity} from 'react-native';
-import {FIND_MANY_POST} from '../apollo/gqls/queries';
 import {useQuery, useMutation} from '@apollo/client';
-import {UPD_TASK} from '../apollo/gqls/mutations';
+
+import {FIND_MANY_POST} from '../../../apollo/gqls/queries';
+import {UPD_TASK} from '../../../apollo/gqls/mutations';
 import styles from './ToDoListPageStyle';
 import moment from 'moment';
 import 'moment/locale/ru';

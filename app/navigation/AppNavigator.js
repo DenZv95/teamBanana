@@ -1,13 +1,13 @@
 import React from 'react';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import HelloPage from '../helloPage/HelloPage';
-import SignInPage from '../signInPage/SignInPage';
-import SignUpPage from '../signUpPage/SignUpPage';
-import ToDoListPage from '../toDoListPage/ToDoListPage';
-import RecoveryPage from '../recoveryPage/recoveryPage';
-import CreateTasksPage from '../createTasksPage/CreateTasksPage';
-import ChangeTaskPage from '../changeTaskPage/ChangeTaskPage';
 
+import HelloPage from '../components/screens/helloPage/HelloPage';
+import SignInPage from '../components/screens/signInPage/SignInPage';
+import SignUpPage from '../components/screens/signUpPage/SignUpPage';
+import ToDoListPage from '../components/screens/toDoListPage/ToDoListPage';
+import RecoveryPage from '../components/screens/recoveryPage/recoveryPage';
+import CreateTasksPage from '../components/screens/createTasksPage/CreateTasksPage';
+import ChangeTaskPage from '../components/screens/changeTaskPage/ChangeTaskPage';
 import navOptions from './AppNavigatorStyle';
 
 const Stack = createNativeStackNavigator();

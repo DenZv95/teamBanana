@@ -2,8 +2,8 @@ import * as React from 'react';
 import {SafeAreaView, Text} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
 import {ApolloProvider} from '@apollo/client';
-import client from './components/apollo/apollo';
-import AppNavigator from './components/navigation/AppNavigator';
+import client from './app/apollo/apollo';
+import AppNavigator from './app/navigation/AppNavigator';
 
 const App = () => {
   return (

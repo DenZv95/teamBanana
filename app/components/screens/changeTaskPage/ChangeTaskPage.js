@@ -7,12 +7,12 @@ import {
   TextInput,
   ScrollView,
 } from 'react-native';
-import styles from './ChangeTaskPageStyle';
 import DateTimePickerModal from 'react-native-modal-datetime-picker';
 import moment from 'moment';
 import 'moment/locale/ru';
 import {useMutation} from '@apollo/client';
-import {UPD_TASK, DEL_TASK} from '../apollo/gqls/mutations';
+import {UPD_TASK, DEL_TASK} from '../../../apollo/gqls/mutations';
+import styles from './ChangeTaskPageStyle';
 
 const ChangeTaskPage = ({navigation, route}) => {
   const [text, onChangeText] = useState(null);
